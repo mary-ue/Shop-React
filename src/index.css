@@ -56,5 +56,26 @@ nav {
   flex-grow: 1;
 }
 
+.cart {
+  padding: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 5;
+  cursor: pointer;
+}
+
+@media (min-width: 767px) {
+  .cart {
+    top: 5rem;
+    bottom: unset;
+  }
+}
+
+.cart-quantity {
+
+}
+
+
 
 
