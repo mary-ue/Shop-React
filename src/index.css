@@ -112,4 +112,10 @@ nav {
   }
 }
 
+.basket-quantity {
+  cursor: pointer;
+  vertical-align: middle;
+  color: #2962ff;
+}
+
 
